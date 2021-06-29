@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#18C522"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="148dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:text="Masai School"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+
+<TextView
+        android:layout_width="148dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center|end"
+        android:gravity="end"
+        android:text="Hello World"
+        android:textColor="#CC3D3D"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="107dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center|start"
+        android:text="Android"
+        android:textColor="#CC3D3D"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+
+
+
+</LinearLayout>
